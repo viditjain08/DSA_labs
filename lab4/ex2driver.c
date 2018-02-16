@@ -3,8 +3,8 @@
 #include<sys/time.h>
 #include"info.h"
 
-int main() {
-	Info arr = readfn("100");
+int main(int argc, char *argv[]) {
+	Info arr = readfn(argv[1]);
 	int size = getSize(arr);
 	printf("%d\n", size);
 	struct timeval t1, t2;
