@@ -26,6 +26,7 @@ int main() {
 		mergefiles(f1,f2);
 		fclose(f1);
 		fclose(f2);
+	
 	}
 	gettimeofday(&t2, NULL);
 	time = (t2.tv_sec - t1.tv_sec) * 1000.0;
